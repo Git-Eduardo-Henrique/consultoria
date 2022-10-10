@@ -1,7 +1,26 @@
-.home_principal {
+.contats {
+    background-color: #0C0E45;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 5px;
 }
 
-.home_principal_img {
-    height: 10%;
-    width: 100%;
+.contats_zap_tele {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav_a{
+    display: flex;
+    gap: 30px;
 }
