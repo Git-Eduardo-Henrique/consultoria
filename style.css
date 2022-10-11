@@ -1,3 +1,5 @@
+
+/* =========================== contats =========================== */
 .contats {
     background-color: #0C0E45;
     color: white;
@@ -8,19 +10,28 @@
     gap: 5px;
 }
 
-.contats_zap_tele {
+#contats_zap_tele {
     display: flex;
     flex-direction: row;
 }
 
+/* =========================== nav =========================== */
 .nav{
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(images/home_image.svg);
+    background-size: 100%;
+}
+
+.nav_all {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
 }
 
-.nav_a{
+#nav_a{
     display: flex;
     gap: 30px;
 }
