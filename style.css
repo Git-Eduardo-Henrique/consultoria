@@ -35,3 +35,21 @@
     display: flex;
     gap: 30px;
 }
+/* =========================== info ============================== */
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 75px;
+}
+
+.info_s1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_s2 {
+    display: flex;
+    justify-content: space-around;
+}
