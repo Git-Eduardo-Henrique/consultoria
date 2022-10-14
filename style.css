@@ -53,3 +53,20 @@
     display: flex;
     justify-content: space-around;
 }
+
+/* =========================== como trabalhamos ============================== */
+.metodo_de_trab {
+    display: flex;
+    justify-content: center;
+}
+
+/* =========================== footer ============================== */
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer_contacts_icon {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
