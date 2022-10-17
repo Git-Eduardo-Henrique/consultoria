@@ -1,18 +1,24 @@
-
-/* =========================== contats =========================== */
-.contats {
-    background-color: #0C0E45;
-    color: white;
-
+body{
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    gap: 5px;
+    flex-direction: column;
+    align-content: stretch;
+
+    margin: 0;
+    
+
+    /*========== vars ========*/
+    --blue: #0C2345;
 }
 
-#contats_zap_tele {
+
+
+/* =========================== fale =========================== */
+.fale {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
+
+    background-color: var(--blue);
+
 }
 
 /* =========================== nav =========================== */
@@ -21,7 +27,8 @@
     flex-direction: column;
 
     background-image: url(images/home_image.svg);
-    background-size: 100%;
+    background-size: cover; 
+    
 }
 
 .nav_all {
@@ -64,6 +71,10 @@
 .footer {
     display: flex;
     justify-content: space-around;
+    background-color: var(--blue);
+    
+    position: relative;
+    bottom: -15vh;
 }
 .footer_contacts_icon {
     display: flex;
