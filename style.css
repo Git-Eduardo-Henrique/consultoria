@@ -12,8 +12,8 @@ body{
 
 
 
-/* =========================== fale =========================== */
-.fale {
+/* =========================== nav =========================== */
+.nav {
     display: flex;
     justify-content: flex-end;
 
@@ -21,8 +21,8 @@ body{
 
 }
 
-/* =========================== nav =========================== */
-.nav{
+/* =========================== principal =========================== */
+.principal{
     display: flex;
     flex-direction: column;
 
@@ -30,17 +30,9 @@ body{
     background-size: cover; 
     
 }
-
-.nav_all {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-}
-
-#nav_a{
-    display: flex;
-    gap: 30px;
+.principal_img {
+    height: 50%;
+    width: 50%;
 }
 /* =========================== info ============================== */
 .info {
