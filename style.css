@@ -51,7 +51,10 @@ body{
 
 .info2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 75px;
 }
 
 .info_s2 {
