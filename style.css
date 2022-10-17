@@ -48,6 +48,12 @@ body{
     justify-content: space-around;
 }
 
+
+.info2 {
+    display: flex;
+    justify-content: space-around;
+}
+
 .info_s2 {
     display: flex;
     justify-content: space-around;
