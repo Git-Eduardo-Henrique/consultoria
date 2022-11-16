@@ -15,25 +15,35 @@ body{
 /* =========================== nav =========================== */
 .nav {
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: space-around;
+    
     background-color: var(--blue);
 
 }
+.nav_options a{
+    color: white;
+    text-decoration: none;
+ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+
+    text-align: center;
+}
+
 
 /* =========================== principal =========================== */
 .principal{
     display: flex;
     flex-direction: column;
-
-    background-image: url(images/home_image.svg);
     background-size: cover; 
     
+    
+    
 }
-.principal_img {
-    height: 50%;
-    width: 50%;
-}
+
 /* =========================== info ============================== */
 .info {
     display: flex;
