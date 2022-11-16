@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     align-content: stretch;
+    background: #C5C5C5;
 
     margin: 0;
     
@@ -13,28 +14,28 @@ body{
 
 
 /* =========================== nav =========================== */
-.nav {
+.nav{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: start;
     background-color: var(--blue);
-
 }
+
 .nav_options a{
-   
+    padding-left: 2rem;
     color: white;
     text-decoration: none;
- 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
     line-height: 36px;
-
     text-align: center;
 }
 
-
+.icons .social{
+    display: flex;
+    
+}
 /* =========================== principal =========================== */
 .principal{
     display: flex;
@@ -50,13 +51,18 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-
     gap: 75px;
 }
 
 .info_s1 {
     display: flex;
     justify-content: space-around;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 73px;
+    text-align: center;
 }
 
 
@@ -71,16 +77,82 @@ body{
 .info_s2 {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
-/* =========================== como trabalhamos ============================== */
-.metodo_de_trab {
+.info3 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+
+    gap: 75px;
+}
+
+.info_s3 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center  ;
+}
+
+.mvv{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.missao_visao_valor{
+    background: #d6d6d6;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.missao_visao_valor:hover{
+    background: #fff;
+    transition: .5s ease-in-out;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+/* =========================== como trabalhamos ============================== */
+.trabalho {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.trabalho_s1 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 73px;
+    text-align: center;
+}
+
+.card{
+    background: #d6d6d6;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.line{
+    position: absolute;
+    width: 323px;
+    margin-left: 10rem;
+    margin-top: 9.3rem;
+    border: 1px solid #000000;
+    transform: matrix(-0.28, 0.92, -1.04, -0.08, 0, 0);
 }
 
 /* =========================== footer ============================== */
 .footer {
+    color: #fff;
     display: flex;
     justify-content: space-around;
     background-color: var(--blue);
@@ -92,4 +164,9 @@ body{
     display: flex;
     flex-direction: row;
     gap: 5px;
+}
+
+.footer_contacts_icon img{
+    width: 30px;
+    height: 30px;
 }
