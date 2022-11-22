@@ -19,7 +19,7 @@ body{
 /* =========================== nav =========================== */
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     background-color: var(--blue);
 }
@@ -30,7 +30,7 @@ body{
     justify-content: space-around;
     height: 7vh;
     margin-top: .5rem;
-
+    padding-left: 7rem;
     gap: 2rem;
 
 }
@@ -56,7 +56,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-
+    padding-right: 7rem;
     margin-top: .8rem;
 
     gap: 1rem;
@@ -86,7 +86,7 @@ body{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -110,6 +110,7 @@ body{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-left: -138px;
+    box-shadow: 3px 3px 3px;
 }
 
 #img2{
@@ -118,6 +119,7 @@ body{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-right: -58px;
+    box-shadow: 3px 3px 3px;
 }
 
 .info_text1{
@@ -132,12 +134,13 @@ body{
 
 .info_text2{
     width: 50%;
-    
+    position: relative;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 32px;
+    left: 6rem;
 
 }
 /* =========================== cards 1 =========================== */
@@ -154,7 +157,9 @@ body{
     background: var(--white2);
     padding-left: .5rem;
     padding-right: .5rem;
+    border-radius: 15px;
 
+    box-shadow: 3px 3px 3px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -208,6 +213,8 @@ body{
     font-size: 40px;
     line-height: 40px;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .card img{
@@ -225,7 +232,8 @@ body{
     font-size: 40px;
     line-height: 40px;
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
     
 }
 .cards2_1{
@@ -235,16 +243,20 @@ body{
     font-size: 20px;
     line-height: 20px;
     transition: 0.3s;
-
+    border-radius: 15px;
     background: #d6d6d6;
     width: 30rem;
     height: 25rem;
     text-align: center;
-
+    box-shadow: 3px 3px 3px;
     margin-bottom: 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: .5rem;
+}
+
+#card2, #card4{
+    margin-top: 100px;
 }
 .cards2_1:hover{
     background: var(--white1);
@@ -285,11 +297,11 @@ body{
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    position: relative;
+    bottom: 2rem;
     gap: 2rem;
 }
 .footer_contacts h2{
@@ -298,6 +310,8 @@ body{
     font-weight: 700;
     font-size: 40px;
     line-height: 30px;
+    position: relative;
+    bottom: 2.5rem;
 }
 
 .footer_contacts_icon img{
@@ -313,19 +327,190 @@ body{
     font-weight: 700;
     font-size: 25px;
     line-height: 25px;
+    margin-left: 5.2rem;
 
+}
+
+#nome, #email, #tel, #empresa{
+    margin-top: 3.5rem;
+    
+}
+
+#nome, #email{
+    position: relative;
+    left: 30px;
 }
 
 .inputs{
     position: absolute;
     flex-direction: column;
-    width: 20vw;
-    height: 3vh;
+    width: 10vw;
+    height: 4vh;
     border-radius: 7px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 20px;
-    padding-left: 10px;
+    margin-top: -24.5rem;
+    margin-left: 13rem;
+    
+    
 }
+
+.nome, .email, .tel, .empresa{
+    margin-top: 2rem;
+    height: 4vh;
+    border-radius: 10px;
+    width: 30vw;
+}
+
+.termos{
+    height: 20px;
+    width: 20px;
+    margin-top: 2rem;
+    margin-left: -1.8rem;
+}
+
+.autorizar{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    left: 13rem;
+    top: -2.5rem;
+}
+
+
+.enviar{
+    position: relative;
+    left: 25rem;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color: #0C2345;
+    bottom: 2rem;
+}
+
+.carrossel{
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+    ul.slides{
+    display: block;
+    position: relative;
+    border-radius: 15px;
+    height: 600px;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    list-style: none;
+    box-shadow: 3px 3px 3px;
+    }
+    .slides{
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select:none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    }
+    ul.slides input{
+    display: none;
+    }
+    .slide-container{
+    display: block;
+    }
+    .slide-image{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    }
+    .slide-image img{
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+    }
+    .carrossel-controls{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 100px;
+    line-height: 600px;
+    color: #fff;
+    }
+    .carrossel-controls label{
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+    }
+    .slide-image:hover + .carrossel-controls label{
+    opacity: 0.5;
+    }
+    .carrossel-controls label:hover{
+    opacity: 1;
+    }
+    .carrossel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+    }
+    
+    .carrossel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+    }
+    
+    .carrossel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+    }
+    .carrossel-dots .carrossel-dot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 10px;
+    }
+    input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.5s ease-in-out;
+    }
+    input:checked + .slide-container .carrossel-controls label {
+    display: block;
+    }
+    
+    input#img-1:checked ~ .carrossel-dots label#img-dot-1,
+    input#img-2:checked ~ .carrossel-dots label#img-dot-2,
+    input#img-3:checked ~ .carrossel-dots label#img-dot-3,
+    input#img-4:checked ~ .carrossel-dots label#img-dot-4,
+    input#img-5:checked ~ .carrossel-dots label#img-dot-5,
+    input#img-6:checked ~ .carrossel-dots label#img-dot-6 {
+    opacity: 1;
+    }
+    
+    input:checked + .slide-container .nav label {
+    display: block;
+    }
